@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  khumalocraft_:
+    image: ${DOCKER_REGISTRY-}khumalocraft
+    build:
+      context: .
+      dockerfile: KhumaloCraft_\Dockerfile
